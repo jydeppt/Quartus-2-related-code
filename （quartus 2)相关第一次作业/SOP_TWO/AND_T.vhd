@@ -1,0 +1,9 @@
+LIBRARY IEEE;
+USE IEEE.std_logic_1164.ALL;
+ENTITY AND_T IS
+	PORT(A,B:IN std_logic;C:OUT std_logic);
+END AND_T;
+ARCHITECTURE and_t OF AND_T IS
+BEGIN
+	C<= A AND B;
+END and_t;

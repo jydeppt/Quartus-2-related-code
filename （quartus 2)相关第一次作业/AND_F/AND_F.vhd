@@ -1,0 +1,9 @@
+LIBRARY IEEE;
+USE IEEE.std_logic_1164.ALL;
+ENTITY AND_F IS
+	PORT(A,B,C,D:IN std_logic;X:OUT std_logic);
+END AND_F;
+ARCHITECTURE and_f OF AND_F IS
+BEGIN
+	X<=A AND B AND C AND D;
+END and_f;

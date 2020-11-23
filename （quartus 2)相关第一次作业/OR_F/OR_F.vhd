@@ -1,0 +1,9 @@
+LIBRARY IEEE;
+USE IEEE.std_logic_1164.ALL;
+ENTITY OR_F IS
+	PORT(A,B,C,D:IN std_logic;X:OUT std_logic);
+END OR_F;
+ARCHITECTURE or_f OF OR_F IS
+BEGIN
+	X<=A OR B OR C OR D;
+END or_f;
