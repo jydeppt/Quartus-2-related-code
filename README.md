@@ -8,3 +8,5 @@
 然后在大致这个位置添加一行“max3000a_ver = $MODEL_TECH/../altera/verilog/max"  
 ![image](https://github.com/jydeppt/Quartus-2-related-code/blob/main/images/2.PNG)  
 这样问题就解决了
+|---------------------------------------|  
+进行仿真时不要把多个项目放在一起，容易造成冲突
